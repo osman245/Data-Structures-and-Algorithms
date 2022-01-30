@@ -1,7 +1,7 @@
 # Algorithms
 
 
-Algorithm: follows a certain guideline, set of steps to finish a task
+## Algorithm: follows a certain guideline, set of steps to finish a task
 
 We cultivate algorithmic thinking, choosing the best algorithm for the task.
 
@@ -9,16 +9,16 @@ Main Question: What solution works best for the current problem ?
 
 There are several examples of searching and sorting algorithms such as 
 
-# Linear Search
+### Linear Search
 an example set of steps would be e.g)
 1) Start at the beginning
 2) Move sequentially 
 3) Compare current value to target 
 4)  Reach end of List
 
-# Insertion sort
-# binary Search
-# bubble Sort
+### Insertion sort
+### binary Search
+### bubble Sort
 
 
 ## How To tackle an algorithm:
