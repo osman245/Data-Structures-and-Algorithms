@@ -1,4 +1,4 @@
-#Algorithms
+# Algorithms
 
 
 Algorithm: follows a certain guideline, set of steps to finish a task
