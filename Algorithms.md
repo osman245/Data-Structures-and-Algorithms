@@ -21,7 +21,7 @@ an example set of steps would be e.g)
 # bubble Sort
 
 
-# How To tackle an algorithm:
+## How To tackle an algorithm:
 1) we define a clear problem statement(how the input is defined, and what the output looks like when the algorithm is done)
 2) we have a specific order of steps
 3) Each step to be explicitly clear, each step to be distinct(not misinterpreted)
