@@ -29,16 +29,18 @@ an example set of steps would be e.g)
 5) Algorithm to be completed in a finite amount of time
 
 
-23:39
+
+Time Complexity: How long it takes the algorithm to run.
+Space Complexity: Amount of memory taken.
 
 
 
+### Tackling problem using binary search algorithm
+1) Problem Statement: We are looking to find the target number in an array of numbers 1 --> 100, the input being the target number. The Algorithm is done when we reach the target number.
+2)
 
 
-
-
-
-
+min:35
 
 
 
