@@ -1,7 +1,11 @@
-# Algorithms
+#This repository is used for coding interview preperation. I will go over all concepts,topics and design patterns in order to adequately prepare for my interviews.
 
 
-## Algorithm: follows a certain guideline, set of steps to finish a task
+
+##Algorithms
+
+
+### Algorithm: follows a certain guideline, set of steps to finish a task
 
 We cultivate algorithmic thinking, choosing the best algorithm for the task.
 
