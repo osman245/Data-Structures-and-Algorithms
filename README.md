@@ -1,8 +1,8 @@
-#This repository is used for coding interview preperation. I will go over all concepts,topics and design patterns in order to adequately prepare for my interviews.
+# This repository is used for coding interview preperation. I will go over all concepts,topics and design patterns in order to adequately prepare for my interviews.
 
 
 
-##Algorithms
+## Algorithms
 
 
 ### Algorithm: follows a certain guideline, set of steps to finish a task
