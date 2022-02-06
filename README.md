@@ -87,4 +87,14 @@ Go to Step 2.
 
 ![This is an image](https://media.geeksforgeeks.org/wp-content/uploads/BSTSearch.png)
 
-Graphs
+### Graphs
+
+Trees expand the scope of linked lists by having more than one node as its child...
+
+![This is an image](https://cdn-media-1.freecodecamp.org/images/3MPRx8M27DX95wWbfufQ7MSAWytADyK1Nrwu)
+
+### Hash Tables
+
+Data in these tables are associated with key-value pairs − input the key, and a hash function takes you to the associated value in O(1) time. Hash tables actually use an array of pointers to achieve this speed; the job of the hash function is to identify the index in the array that holds the pointer to a key’s value.
+
+![This is an image](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/1200px-Hash_table_3_1_1_0_1_0_0_SP.svg.png)
