@@ -1,6 +1,4 @@
-package pkg1;
-
-import com.sun.jdi.PathSearchingVirtualMachine;
+package linkedlist;
 
 public class LinkedListDemo {
      public static void main(String[] args) {

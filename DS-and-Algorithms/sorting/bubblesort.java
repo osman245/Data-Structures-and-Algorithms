@@ -1,4 +1,4 @@
-package pkg2;
+package sorting;
 
 public class bubblesort {
 

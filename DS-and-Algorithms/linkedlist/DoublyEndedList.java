@@ -1,4 +1,4 @@
-package pkg1;
+package linkedlist;
 //sorted linkedlist O(n)....
 public class DoublyEndedList {
     private Node head;

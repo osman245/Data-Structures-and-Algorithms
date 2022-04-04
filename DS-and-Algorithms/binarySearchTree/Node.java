@@ -1,15 +1,23 @@
 package binarySearchTree;
 
-public class BinarySearchTree {
-private Integer data;
-private BinarySearchTree leftChild;
-private BinarySearchTree rightChild;
+import java.util.ArrayList;
 
-public BinarySearchTree(Integer data) {
+public class Node {
+private Integer data;
+private Node leftChild;
+private Node rightChild;
+
+public Node(Integer data) {
     this.data = data;
 }
+    public Node(Integer data, Node rightChild, Node leftChild) {
+        this.data = data;
+        this.leftChild = leftChild;
+        this.rightChild = rightChild;
+    }
 
-public BinarySearchTree find(Integer data) {
+
+public Node find(Integer data) {
     if(this.data == data) {
         return this;
     }else if(this.data < data && rightChild != null) {
@@ -21,16 +29,26 @@ public BinarySearchTree find(Integer data) {
 
 }
 
+   public void Inorder(Integer data, ArrayList<Node> a) {
+       if(this.getLeftChild() == null) {
+           a.add(this);
+           return;
+       }else {
+
+       }
+   }
+
+
 public void insert(Integer data) {
     if(data > this.data) {
         if(this.rightChild == null) {
-            this.rightChild = new BinarySearchTree(data);
+            this.rightChild = new Node(data);
         }else {
             this.rightChild.insert(data);
         }
     }else {
      if(this.leftChild == null) {
-         this.rightChild = new BinarySearchTree(data);
+         this.rightChild = new Node(data);
      }else {
          this.rightChild.insert(data);
      }
@@ -48,19 +66,22 @@ public void insert(Integer data) {
         this.data = data;
     }
 
-    public BinarySearchTree getLeftChild() {
+    public Node getLeftChild() {
         return leftChild;
     }
 
-    public void setLeftChild(BinarySearchTree leftChild) {
+    public void setLeftChild(Node leftChild) {
         this.leftChild = leftChild;
     }
 
-    public BinarySearchTree getRightChild() {
+    public Node getRightChild() {
         return rightChild;
     }
 
-    public void setRightChild(BinarySearchTree rightChild) {
+    public void setRightChild(Node rightChild) {
         this.rightChild = rightChild;
     }
+
+
+
 }

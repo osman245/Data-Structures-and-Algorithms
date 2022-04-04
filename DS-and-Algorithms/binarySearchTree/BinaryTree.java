@@ -1,18 +1,21 @@
 package binarySearchTree;
 
-import binarySearchTree.BinarySearchTree;
-
 public class BinaryTree {
     //BInary search tree. all descendants on the left of a parent node should be less. all on the right have values more then the parent.
-    private BinarySearchTree root;
+    private Node root;
 
     public void insert(Integer data) {
-         if(root == null) this.root = new BinarySearchTree(data);
+         if(root == null) this.root = new Node(data);
          else root.insert(data);
     }
 
+    public void InOrderTraversal(Integer data){
 
-    public BinarySearchTree find(Integer data) {
+
+    }
+
+
+    public Node find(Integer data) {
         if(root != null) return root.find(data);
         return null;
     }

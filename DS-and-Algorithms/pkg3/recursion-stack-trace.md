@@ -1,2 +1,0 @@
-## Recursion Stack Trace
-

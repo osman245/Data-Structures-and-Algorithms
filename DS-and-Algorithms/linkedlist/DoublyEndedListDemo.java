@@ -1,4 +1,4 @@
-package pkg1;
+package linkedlist;
 
 public class DoublyEndedListDemo {
     public static void main(String[] args) {
